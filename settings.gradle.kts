@@ -1,7 +1,3 @@
-include(":app")
-
-rootProject.name = "DiscountMarket"
-
 pluginManagement {
     repositories {
         google()
@@ -16,3 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+rootProject.name = "DiscountMarket"
+include(":app")
